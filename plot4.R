@@ -6,7 +6,7 @@ library(zip)
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 zipfilename <- "./powerConsumption.zip"
 filename <- "./household_power_consumption.txt"
-pngfile <- "./plot3.png"
+pngfile <- "./plot4.png"
 
 # Download data
 if(!file.exists(filename)) {
